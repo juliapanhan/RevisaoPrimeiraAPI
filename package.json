@@ -20,5 +20,6 @@
   "homepage": "https://github.com/juliapanhan/RevisaoPrimeiraAPI#readme",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {}
 }
