@@ -14,7 +14,11 @@ app.get("/",(req,res) =>{
     res.json({
         mensagem: "API Alunos funcionando"
     })
-})
+});
+
+app.get("/alunos", (req, res) =>{
+    res.json(alunos);
+});
 
 const PORTA = 3000;
 app.listen(PORTA, ()=>{
